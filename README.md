@@ -21,7 +21,7 @@ Para acceder al dataset desde Google colab, siga los siguientes pasos:
 
 2.Pulse el botón 'Download' de la derecha.
 
-3.Cargue el archivo zip al entorno de Colab, ya sea arrastrándolos al visor de archivos (deberá repetirlo cada vez que acceda al notebook) o guardándolos en su Drive y cargándolos mediante la ruta. Para cualquiera de las opciones, ejecute los comandos:
+3.Cargue el archivo zip al entorno de Colab, ya sea arrastrándolo al visor de archivos (deberá repetirlo cada vez que acceda al notebook) o guardándolo en su Drive y cargándolo mediante la ruta. Para cualquiera de las opciones, ejecute los comandos:
 
 ! unzip path/to/data.zip .
 
@@ -31,4 +31,4 @@ import pandas as pd
 
 df = pd.read_csv('path/to/data.csv')
 
-Ahora puede trabajar con el DataFrame 'df' en tu notebook
+Ahora puede trabajar con el DataFrame 'df' en su notebook
