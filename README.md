@@ -61,6 +61,9 @@ Para agregar un conjunto de datos de Kaggle a Google Colab utilizando un archivo
      !unzip <H1N1_Flu_Vaccines.zip>
      
    - Esto descomprime el conjunto de datos y se puede acceder a los archivos para su análisis.
+  
+## Notebook:
+[Proyecto_IA]([https://www.youtube.com/watch?v=8sZhMG-_CPo](https://colab.research.google.com/drive/1s77dTCO_lwHxf8CKk4WMUZE2s5PxLVh9?usp=sharing)https://colab.research.google.com/drive/1s77dTCO_lwHxf8CKk4WMUZE2s5PxLVh9?usp=sharing)
 
 ## Videos:
 [Video entrega 2](https://www.youtube.com/watch?v=8sZhMG-_CPo)
