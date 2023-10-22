@@ -15,23 +15,52 @@ Eliana Salas Villa - 1193579584 - Bioingeniería
 https://www.kaggle.com/datasets/arashnic/flu-data
 
 ## Datos:
-Para acceder al dataset desde Google colab, siga los siguientes pasos:
+Para agregar un conjunto de datos de Kaggle a Google Colab utilizando un archivo JSON de token de Kaggle, siguiendo estos pasos:
 
-1.Ingrese al enlace de la fuente de datos.
+1. Preparar el token de Kaggle:
+   - Ir al perfil en Kaggle (https://www.kaggle.com/account).
+   - En la sección "API", hacer clic en "Create New API Token". Esto descargará un archivo JSON llamado kaggle.json a tu computadora. Este archivo contiene tus credenciales de Kaggle.
 
-2.Pulse el botón 'Download' de la derecha.
+2. Subir el archivo JSON a Google Colab:
 
-3.Cargue el archivo zip al entorno de Colab, ya sea arrastrándolo al visor de archivos (deberá repetirlo cada vez que acceda al notebook) o guardándolo en su Drive y cargándolo mediante la ruta. Para cualquiera de las opciones, ejecute los comandos:
+   - Abrir Google Colab (https://colab.research.google.com/).
+   - En Colab, hacer clic en el ícono de carpeta en el panel izquierdo para abrir la sección de archivos.
+   - Hacer clic en el ícono de "Subir" y selecciona el archivo kaggle.json descargado previamente. Esto subirá el archivo al entorno de Colab.
 
-! unzip path/to/data.zip .
+3. Instalar la biblioteca de Kaggle:
 
-Eso descomprimirá el archivo csv en la carpeta actual. Para leerlo ejecute el comando:
+   - Ejecutar el siguiente comando en una celda de Colab para instalar la biblioteca de Kaggle:
 
-import pandas as pd
+     !pip install kaggle
 
-df = pd.read_csv('path/to/data.csv')
+4. Mover el archivo JSON a la ubicación correcta:
 
-Ahora puede trabajar con el DataFrame 'df' en su notebook
+   - Mover el archivo kaggle.json al directorio correcto donde la biblioteca de Kaggle espera encontrarlo. Utilizar el siguiente comando:
+
+     !mkdir -p ~/.kaggle
+     !mv kaggle.json ~/.kaggle/
+     
+5. Cambiar los permisos del archivo JSON:
+
+   Para proteger tus credenciales, se debe asegurar que el archivo JSON tenga permisos adecuados. Para ello, se utiliza el siguiente comando para establecer permisos restrictivos:
+
+     !chmod 600 ~/.kaggle/kaggle.json
+
+6. Descargue el conjunto de datos de Kaggle:
+
+   - Usar la biblioteca de Kaggle para descargar el conjunto de datos que deseas en Colab. 
+
+     !kaggle datasets download -d <H1N1_Flu_Vaccines>
+
+   - Esto descarga el conjunto de datos en formato ZIP a el entorno de Colab.
+
+7. Descomprimir el conjunto de datos:
+
+   - Descomprima el archivo ZIP descargado usando el siguiente comando :
+
+     !unzip <H1N1_Flu_Vaccines.zip>
+     
+   - Esto descomprime el conjunto de datos y se puede acceder a los archivos para su análisis.
 
 ## Videos:
 [Video entrega 2](https://www.youtube.com/watch?v=8sZhMG-_CPo)
