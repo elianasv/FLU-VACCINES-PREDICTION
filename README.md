@@ -32,3 +32,6 @@ import pandas as pd
 df = pd.read_csv('path/to/data.csv')
 
 Ahora puede trabajar con el DataFrame 'df' en su notebook
+
+## Videos:
+[Video entrega 2](https://www.youtube.com/watch?v=8sZhMG-_CPo)
