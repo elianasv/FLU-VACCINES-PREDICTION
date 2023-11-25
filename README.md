@@ -17,10 +17,13 @@ https://www.kaggle.com/datasets/arashnic/flu-data
 ## Datos:
 
 Los datos fueron descargados directamente desde Kaggle y almacenados en este repositorio, a los cuáles se accede utilizando el siguiente enlace:
+
 https://raw.githubusercontent.com/elianasv/Proyecto-IA/main/H1N1_Flu_Vaccines.csv
+
 Y posteriormente leídos utilizando la librería Pandas y almacenados en una variable para su uso
 
 ```
+url = "https://raw.githubusercontent.com/elianasv/Proyecto-IA/main/H1N1_Flu_Vaccines.csv"
 datos = pd.read_csv(url)
 ```
   
