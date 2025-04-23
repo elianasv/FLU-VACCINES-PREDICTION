@@ -1,26 +1,26 @@
-# Proyecto H1N1 and Seasonal Flu Vaccines
+# H1N1 and Seasonal Flu Vaccines Proyect
 
-Proyecto para el curso Inteligencia Artificial para las Ciencias e Ingenierías.
+Project for the course Artificial Intelligence for Science and Engineering.
 
-En este proyecto, abordaremos el desafío de prever la probabilidad de que las personas sean vacunadas contra el virus H1N1 y la gripe estacional, lo cual es crucial en el ámbito de la salud pública para combatir enfermedades infecciosas y prevenir su propagación. 
+In this project, we will address the challenge of predicting the likelihood that individuals will be vaccinated against the H1N1 virus and seasonal flu, which is crucial in the field of public health to combat infectious diseases and prevent their spread. 
 
-## Desarrollado por:
-Marisol Correa Gutiérrez - 1007223653 - Bioingeniería
+## Developed by:
+Marisol Correa Gutiérrez - Bioengineering
 
-Manuela Ospina Giraldo - 1007232820 - Bioingeniería
+Manuela Ospina Giraldo  - Bioengineering
 
-Eliana Salas Villa - 1193579584 - Bioingeniería
+Eliana Salas Villa  - Bioengineering
 
-## Enlace a la fuente de los datos usados: 
+## Link to the source of the data used: 
 https://www.kaggle.com/datasets/arashnic/flu-data
 
-## Datos:
+## Data:
 
-Los datos fueron descargados directamente desde Kaggle y almacenados en este repositorio, a los cuáles se accede utilizando el siguiente enlace:
+The data was downloaded directly from Kaggle and stored in this repository, which can be accessed using the following link:
 
 https://raw.githubusercontent.com/elianasv/Proyecto-IA/main/H1N1_Flu_Vaccines.csv
 
-Y posteriormente leídos utilizando la librería Pandas y almacenados en una variable para su uso
+And then read using the Pandas library and stored in a variable for use:
 
 ```
 url = "https://raw.githubusercontent.com/elianasv/Proyecto-IA/main/H1N1_Flu_Vaccines.csv"
@@ -28,16 +28,16 @@ datos = pd.read_csv(url)
 ```
   
 ## Notebook:
-[01 - modelos supervisados](https://colab.research.google.com/drive/1bj4SZnySrO_dFzbc_xvIA3PVs7q2LSZp?authuser=1)
+[01 - Supervised models](https://colab.research.google.com/drive/1bj4SZnySrO_dFzbc_xvIA3PVs7q2LSZp?authuser=1)
 
-[02 - modelos compuestos](https://colab.research.google.com/drive/1y3qbQ_zskMVxRi4y5BwVCwZCjgN_8rzY?authuser=1)
+[02 - Ensemble models](https://colab.research.google.com/drive/1y3qbQ_zskMVxRi4y5BwVCwZCjgN_8rzY?authuser=1)
 
-[03 - Variacion de estructuras](https://colab.research.google.com/drive/1s77dTCO_lwHxf8CKk4WMUZE2s5PxLVh9?authuser=1)
+[03 - Structure variation](https://colab.research.google.com/drive/1s77dTCO_lwHxf8CKk4WMUZE2s5PxLVh9?authuser=1)
 
-[04 - modelos supervisados con datos balanceados](https://colab.research.google.com/drive/1p7Uw27U8gtHg2Do9h4dnKEfFaRTA-ZNi?authuser=1)
+[04 - Supervised models with balanced data](https://colab.research.google.com/drive/1p7Uw27U8gtHg2Do9h4dnKEfFaRTA-ZNi?authuser=1)
 
 
 ## Videos:
-[Video entrega 2](https://www.youtube.com/watch?v=8sZhMG-_CPo)
+[Delivery 2 video](https://www.youtube.com/watch?v=8sZhMG-_CPo)
 
-[Video entrega final](https://youtu.be/Dvz3B8Ftvgw)
+[Final delivery video](https://youtu.be/Dvz3B8Ftvgw)
